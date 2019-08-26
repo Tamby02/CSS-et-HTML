@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TAMBY CSS & HTML</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='https://unpkg.com/boxicons@2.0.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+	<h1 class="text-primary">ELEMENTS PERTINENTS</h1>
+	<h2>Les couleurs generale</h2>
+
+	<table>
+	<tr> <td>
+	<div class="primary" id="box">Primary</div></td>
+	<td>
+	<div class="secondary" id="box"> Secondary</div></td>
+
+	</table>
+
+
+	<h2>Les trois nuances gris</h2>
+	<table>
+	<tr> <td>
+	<div class="dark" id="box">dark</div>
+	</td>
+	<td>
+	<div class="medium-light" id="box">medium-light</div>
+	</td>
+	<td><div class="light" id="box">light</div></td> </tr>
+	</table>
+
+	<h2>Les couleurs alertes pour bouton</h2>
+	<table>
+		<tr><td>
+			<div class="danger" id="box">danger</div>
+		</td>
+		<td>
+			<div class="succes" id="box">succes</div>
+		</td>
+		<td><div class="info" id="box">info</div></td>
+		<td><div class="warning" id="box">warning</div></td></tr>
+	</table>
+	<h2>Les headings</h2>
+	<table>
+	  <tr>
+		<td> <h1>h1</h1>
+			<blockquote>text-align: center;<br>
+			font-size: 45px;<br>
+			margin-left: 30px;</blockquote> </td>
+		<td> <h2>h2</h2>
+		<blockquote>
+	font-size: 35px;<br>
+	text-decoration: underline;<br>
+	margin-left: 40px;</blockquote>  </td>
+		<td> <h3>h3</h3>
+		<blockquote> 
+	word-spacing: 7px; <br>
+	font-size: 30px;<br>
+	margin-left: 50px;		
+		</blockquote> </td>
+		<td> <h4>h4</h4>
+		<blockquote>
+	word-spacing: 7px;<br>
+	font-size: 25px;<br>
+	margin-left: 60px;
+		</blockquote>
+		</td>
+		<td> <h5>h5</h5>
+		<blockquote>
+	word-spacing: 7px; <br>
+	font-size: 20px;<br>
+	margin-left: 70px;			
+		</blockquote>
+		</td>
+		<tr>
+		<td>
+			<h6>h6</h6>
+		<blockquote>
+	word-spacing: 7px;
+	font-size: 15px;
+	margin-left: 80px;
+		</blockquote>
+			</td>
+		<td>
+		<h4>paragraph</h4>
+	<blockquote>font-size: 10px;</blockquote>
+		</td>
+		<td><h4>blockquote</h4>
+		<blockquote>font-style: italic;</blockquote>
+		</td>
+		<td><h4>ul</h4>
+			<blockquote>
+				font-weight: bolder;
+				font-family : Montserrat;
+		</td>
+		<td><h5>body</h5>
+			<blockquote>word-spacing: 5px;
+	font-size: 20px;
+	position: relative;</blockquote>
+		</td>
+	  </tr>
+	</table>
+<h2>Les bouttons</h2>
+	<h4 class="expect">btn</h4>
+<button class="btn primary">primary</button>
+<button class="btn warning"> warning</button>
+<button class="btn danger">danger</button>
+<button class="btn succes">succes</button>	
+<button class="btn info">info</button>
+
+<h4 class="expect">btn-sm</h4>
+<button class="btn-sm primary">primary</button>
+<button class="btn-sm warning">secondary</button>
+<button class="btn-sm danger"> danger</button>
+<button class="btn-sm succes">succes</button>
+<button class="btn-sm info">info</button>
+
+<h4 class="expect">btn-lg</h4>
+<button class="btn-lg primary">primary</button>
+<button class="btn-lg warning">secondary</button>
+<button class="btn-lg danger"> danger</button>
+<button class="btn-lg succes">succes</button>
+<button class="btn-lg info">info</button>
+</body>
+
+<h4 class="expect">btn-outline</h4>
+<button class="btn-outline primary-border">primary</button>
+<button class="btn-outline warning-border">warning</button>
+<button class="btn-outline danger-border">danger</button>
+<button class="btn-outline succes-border">succes</button>
+<button class="btn-outline info-border">info</button>
+</html>
+ 
+ <h2>Les icones</h2>
+ <i class="bx bx-cake" id="icon"></i>
+ <i class='bx bx-dish' id="icon"></i>
+ <i class='bx bxs-coffee-alt' id="icon"></i>
+ <i class='bx bx-check-circle' id="icon"></i>
+ <i class='bx bxs-conversation' id="icon"></i>
+
+ <h2>Les formulaires </h2>
+ <form>
+ 	<label>Texte:</label>
+ 	<input type="text"></input><br>
+ 	
+ 	<label>Cours choisis:</label>
+ 	<select name="cours">
+ 		<option value="chinoise">cuisine chinoise</option>
+ 		<option value="malgache">cuisine malagasy</option>
+ 		<option value="coreen">cuisine coréenne</option>
+ 		<option value="italienne">cuisine italienne</option>
+ 	</select> <br>
+ 	
+ 	<label>Tarif proposé:</label>	
+ 	<input type="number" name="price"></input> <br>
+ 
+ 	<label>Début de cours:</label>
+ 	<input type="date" name="startt_date"></input><br>
+ 	
+ 	<label>Heure choisi:</label>
+ 	<input type="time"></input><br>
+ 	
+ 	<label>Votre motivation:</label>
+ 	
+ 	<textarea style="width: 300px; height: 50px;">write your message</textarea><br>
+     
+ 	<label>Choisir le cours:</label><br>
+
+ 	<input type="radio" name="er"> cours de soir <br>
+ 	<input type="radio" name="er">
+ 	 Samedi toute la journée <br>
+     <input type="radio" name="er"> cours particulier <br>
+
+<label>Etes-vous prêts à respecter les règles?</label><br>
+	<input type="checkbox">oui<br>
+	<input type="checkbox"> à la prochaine fois <br>
+<input type="submit" class="btn secondary" value="JE VALIDE">
+ 		</form>
+
+ 		<h2>Les listes </h2>
+
+ <ul>
+ 	<li>
+ 		<h1>tache à faire</h1>
+ 		<span> bkbjdzbakdbkjsduisyhuchjqdkl,ls;f</span>
+ 	</li>
+ 	<li class="important">
+ 		<h1>Devoir à emporter<h1>
+ 			<span>devoir de groupe , n'oubliez pas de le faire , merci 
+ 				<br>
+ 				et surtout , on doit se revoir demain, hein? <i class='bx bxs-cake'></i></span>
+ 	</li>
+ 	<li>
+ 		<h3>N'oubliez pas de ranger avant d'aller</h3>
+ 		<span>merci du fonds du coeur</span>
+ 	</li>
+ </ul>
+
+ <h2>Carte d'identité</h2>
+ <table>
+ <tr>
+ 	<td>
+ <div id="carte">
+ 	<img src="https://bootflat.github.io/img/thumbnail-4.jpg" width="125" height="125" style="position: relative; top: 2px; left: 2px;  ">
+ 	<h5>Cute cat </h5>  
+ 	<p>cuteeeeeeeeeeeeeee<i class='bx bx-check-circle'></i><br>
+ 		<button class="btn info">accept</button>
+ 	</p>
+ </div>
+ </td>
+ <td>
+<div id="carte">
+	<img src="https://images.pexels.com/photos/556667/pexels-photo-556667.jpeg?cs=srgb&dl=backlit-blur-couple-556667.jpg&fm=jpg" width="125" height="125" style="position: relative; top: 2px; left: 2px;  ">
+ 	<h5>Cute  </h5>  
+ 	<p>cuteeeeeeeeeeeeeee<i class='bx bx-check-circle'></i><br>
+ 		
+</div>
+</td>
+</tr>
+</table>
+<h1> Au revoir</h1>
